@@ -1,0 +1,633 @@
+{
+  "acts-geometry-hierarchy-map": {
+    "format-version": 0,
+    "value-identifier": "digitization-configuration"
+  },
+  "entries": [
+    {
+      "name": "pixel barrel",
+      "volume": 17,
+      "value": {
+        "geometric": {
+          "digital": false,
+          "indices": [
+            0,
+            1
+          ],
+          "segmentation": {
+            "binningdata": [
+              {
+                "bins": 336,
+                "max": 8.4,
+                "min": -8.4,
+                "option": "open",
+                "type": "equidistant",
+                "value": "binX"
+              },
+              {
+                "bins": 1440,
+                "max": 36.0,
+                "min": -36.0,
+                "option": "open",
+                "type": "equidistant",
+                "value": "binY"
+              }
+            ]
+          },
+          "thickness": 0.0625,
+          "threshold": 0.001
+        }
+      }
+    },
+    
+    {
+      "name": "positive endcap pixel",
+      "volume": 18,
+      "value": [
+      {
+          "constraint": {
+            "r-range": [60.0,80.0]
+          },
+          "geometric": {
+            "digital": false,
+            "indices": [
+              0,
+              1
+            ],
+            "segmentation": {
+              "binningdata": [
+                {
+                  "bins": 580,
+                  "max": 14.5,
+                  "min": -14.5,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binX"
+                },
+                {
+                  "bins": 1360,
+                  "max": 34.00,
+                  "min": -34.00,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binY"
+                }
+              ]
+            },
+            "thickness": 0.0625,
+            "threshold": 0.001
+          }
+        },
+        {
+          "constraint": {
+            "r-range": [100.0,150.0]
+          },
+          "geometric": {
+            "digital": true,
+            "indices": [
+              0,
+              1
+            ],
+            "segmentation": {
+              "binningdata": [
+                {
+                  "bins": 660,
+                  "max": 16.5,
+                  "min": -16.5,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binX"
+                },
+                {
+                  "bins": 1360,
+                  "max": 34.00,
+                  "min": -34.00,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binY"
+                }
+              ]
+            },
+            "thickness": 0.0625,
+            "threshold": 0.001
+          }
+        }
+      ]
+    },
+    
+    {
+      "name": "negative endcap pixel",
+      "volume": 16,
+      "value": [
+      {
+          "constraint": {
+            "r-range": [60.0,80.0]
+          },
+          "geometric": {
+            "digital": false,
+            "indices": [
+              0,
+              1
+            ],
+            "segmentation": {
+              "binningdata": [
+                {
+                  "bins": 580,
+                  "max": 14.5,
+                  "min": -14.5,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binX"
+                },
+                {
+                  "bins": 1360,
+                  "max": 34.00,
+                  "min": -34.00,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binY"
+                }
+              ]
+            },
+            "thickness": 0.0625,
+            "threshold": 0.001
+          }
+        },
+        {
+          "constraint": {
+            "r-range": [100.0,150.0]
+          },
+          "geometric": {
+            "digital": true,
+            "indices": [
+              0,
+              1
+            ],
+            "segmentation": {
+              "binningdata": [
+                {
+                  "bins": 660,
+                  "max": 16.5,
+                  "min": -16.5,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binX"
+                },
+                {
+                  "bins": 1360,
+                  "max": 34.00,
+                  "min": -34.00,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binY"
+                }
+              ]
+            },
+            "thickness": 0.0625,
+            "threshold": 0.001
+          }
+        }
+      ]
+    },
+    
+    {
+      "name": "pixel shortstrip",
+      "volume": 24,
+      "value": {
+        "geometric": {
+          "digital": false,
+          "indices": [
+            0,
+            1
+          ],
+          "segmentation": {
+            "binningdata": [
+              {
+                "bins": 960,
+                "max": 24.0,
+                "min": -24.0,
+                "option": "open",
+                "type": "equidistant",
+                "value": "binX"
+              },
+              {
+                "bins": 216,
+                "max": 54.0,
+                "min": -54.0,
+                "option": "open",
+                "type": "equidistant",
+                "value": "binY"
+              }
+            ]
+          },
+          "thickness": 0.1,
+          "threshold": 0.001
+        }
+      }
+    },
+    
+    {
+      "name": "negative endcap shortstrip",
+      "volume": 23,
+      "value": [
+        {
+          "constraint": {
+            "r-range": [250.0,350.0]
+          },
+          "geometric": {
+            "digital": false,
+            "indices": [
+              0,
+              1
+            ],
+            "segmentation": {
+              "binningdata": [
+                {
+                  "bins": 858,
+                  "max": 32.2,
+                  "min": -32.2,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binX"
+                },
+                {
+                  "bins": 312,
+                  "max": 78.00,
+                  "min": -78.00,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binY"
+                }
+              ]
+            },
+            "thickness": 0.125,
+            "threshold": 0.001
+          }
+        },
+        {
+          "constraint": {
+            "r-range": [400.0,500.0]
+          },
+          "geometric": {
+            "digital": true,
+            "indices": [
+              0,
+              1
+            ],
+            "segmentation": {
+              "binningdata": [
+                {
+                  "bins": 1173,
+                  "max": 44.0,
+                  "min": -44.0,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binX"
+                },
+                {
+                  "bins": 312,
+                  "max": 78.00,
+                  "min": -78.00,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binY"
+                }
+              ]
+            },
+            "thickness": 0.125,
+            "threshold": 0.001
+          }
+        },
+        {
+          "constraint": {
+            "r-range": [610.0,630.0]
+          },
+          "geometric": {
+            "digital": true,
+            "indices": [
+              0,
+              1
+            ],
+            "segmentation": {
+              "binningdata": [
+                {
+                  "bins": 1504,
+                  "max": 56.4,
+                  "min": -56.4,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binX"
+                },
+                {
+                  "bins": 312,
+                  "max": 78.00,
+                  "min": -78.00,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binY"
+                }
+              ]
+            },
+            "thickness": 0.125,
+            "threshold": 0.001
+          }
+        }
+      ]
+    },
+    
+    {
+      "name": "positive endcap shortstrip",
+      "volume": 25,
+      "value": [
+        {
+          "constraint": {
+            "r-range": [250.0,350.0]
+          },
+          "geometric": {
+            "digital": false,
+            "indices": [
+              0,
+              1
+            ],
+            "segmentation": {
+              "binningdata": [
+                {
+                  "bins": 858,
+                  "max": 32.2,
+                  "min": -32.2,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binX"
+                },
+                {
+                  "bins": 312,
+                  "max": 78.00,
+                  "min": -78.00,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binY"
+                }
+              ]
+            },
+            "thickness": 0.125,
+            "threshold": 0.001
+          }
+        },
+        {
+          "constraint": {
+            "r-range": [400.0,500.0]
+          },
+          "geometric": {
+            "digital": true,
+            "indices": [
+              0,
+              1
+            ],
+            "segmentation": {
+              "binningdata": [
+                {
+                  "bins": 1173,
+                  "max": 44.0,
+                  "min": -44.0,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binX"
+                },
+                {
+                  "bins": 312,
+                  "max": 78.00,
+                  "min": -78.00,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binY"
+                }
+              ]
+            },
+            "thickness": 0.125,
+            "threshold": 0.001
+          }
+        },
+        {
+          "constraint": {
+            "r-range": [610.0,630.0]
+          },
+          "geometric": {
+            "digital": true,
+            "indices": [
+              0,
+              1
+            ],
+            "segmentation": {
+              "binningdata": [
+                {
+                  "bins": 1504,
+                  "max": 56.4,
+                  "min": -56.4,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binX"
+                },
+                {
+                  "bins": 312,
+                  "max": 78.00,
+                  "min": -78.00,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binY"
+                }
+              ]
+            },
+            "thickness": 0.125,
+            "threshold": 0.001
+          }
+        }
+      ]
+    },
+    
+    {
+      "name": "pixel longstrip",
+      "volume": 29,
+      "value": {
+        "geometric": {
+          "digital": true,
+          "indices": [
+            0,
+            1
+          ],
+          "segmentation": {
+            "binningdata": [
+              {
+                "bins": 640,
+                "max": 48.0,
+                "min": -48.0,
+                "option": "open",
+                "type": "equidistant",
+                "value": "binX"
+              },
+              {
+                "bins": 72,
+                "max": 54.0,
+                "min": -54.0,
+                "option": "open",
+                "type": "equidistant",
+                "value": "binY"
+              }
+            ]
+          },
+          "thickness": 0.125,
+          "threshold": 0.001
+        }
+      }
+    },
+    
+    {
+      "name": "negative endcap longstrip",
+      "volume": 28,
+      "value": [
+      {
+          "constraint": {
+            "r-range": [750.0,850.0]
+          },
+          "geometric": {
+            "digital": true,
+            "indices": [
+              0,
+              1
+            ],
+            "segmentation": {
+              "binningdata": [
+                {
+                  "bins": 789,
+                  "max": 59.2,
+                  "min": -59.2,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binX"
+                },
+                {
+                  "bins": 104,
+                  "max": 78.00,
+                  "min": -78.00,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binY"
+                }
+              ]
+            },
+            "thickness": 0.125,
+            "threshold": 0.001
+          }
+        },
+        {
+          "constraint": {
+            "r-range": [900.0,1000.0]
+          },
+          "geometric": {
+            "digital": true,
+            "indices": [
+              0,
+              1
+            ],
+            "segmentation": {
+              "binningdata": [
+                {
+                  "bins": 941,
+                  "max": 70.6,
+                  "min": -70.6,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binX"
+                },
+                {
+                  "bins": 107,
+                  "max": 80.80,
+                  "min": -80.80,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binY"
+                }
+              ]
+            },
+            "thickness": 0.125,
+            "threshold": 0.001
+          }
+        }
+      ]
+    },
+    
+    {
+      "name": "positive endcap longstrip",
+      "volume": 30,
+      "value": [
+      {
+          "constraint": {
+            "r-range": [750.0,850.0]
+          },
+          "geometric": {
+            "digital": true,
+            "indices": [
+              0,
+              1
+            ],
+            "segmentation": {
+              "binningdata": [
+                {
+                  "bins": 789,
+                  "max": 59.2,
+                  "min": -59.2,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binX"
+                },
+                {
+                  "bins": 104,
+                  "max": 78.00,
+                  "min": -78.00,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binY"
+                }
+              ]
+            },
+            "thickness": 0.125,
+            "threshold": 0.001
+          }
+        },
+        {
+          "constraint": {
+            "r-range": [900.0,1000.0]
+          },
+          "geometric": {
+            "digital": true,
+            "indices": [
+              0,
+              1
+            ],
+            "segmentation": {
+              "binningdata": [
+                {
+                  "bins": 941,
+                  "max": 70.6,
+                  "min": -70.6,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binX"
+                },
+                {
+                  "bins": 107,
+                  "max": 80.80,
+                  "min": -80.80,
+                  "option": "open",
+                  "type": "equidistant",
+                  "value": "binY"
+                }
+              ]
+            },
+            "thickness": 0.125,
+            "threshold": 0.001
+          }
+        }
+      ]
+    }
+  ]
+}

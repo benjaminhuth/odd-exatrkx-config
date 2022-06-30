@@ -1,0 +1,7 @@
+training_data
+test_data
+reconstruction
+__pycache__
+model_config.txt
+.ipynb_checkpoints
+*.pickle
